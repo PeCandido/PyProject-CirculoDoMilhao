@@ -1,10 +1,9 @@
-#GABRIEL HERIQUE SC 3037851
-#PEDRO CANDIDO SC 3037126
-
-num_pessoas = int(input("Insira O Número De Pessoas: "))
-x_pessoa_eliminada = int(input("Insira a x-ésima Pessoa Eliminada: "))
+# ENTRADA
+num_pessoas = int(input("Insira O Número De Pessoas: "))  # Quantidade de pessoas na roda
+x_pessoa_eliminada = int(input("Insira a x-ésima Pessoa Eliminada: ")) # x-ésima pessoa eliminada
 roda = []
 
+# PROCESSAMENTO
 i = 1
 while i <= num_pessoas:
     roda.append(i)
@@ -32,5 +31,6 @@ while i < len(roda):
         vencedor = roda[i]
     i += 1
 
-print(f"Eliminação {x_pessoa_eliminada}: {x_esimo}")
-print(f"Ganhador: {vencedor}")
+# SAÍDA  
+print(f"Eliminação {x_pessoa_eliminada}: {x_esimo}") # X-éniso eliminado
+print(f"Ganhador: {vencedor}") # Vencedor 
