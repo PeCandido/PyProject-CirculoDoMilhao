@@ -1,4 +1,5 @@
-# PyProject-CirculoDoMilhao
+# Círculo do Milhão
+
 - Há N pessoas sentadas formando um círculo. As pessoas são numeradas ordenadamente, de 1 a N. No centro do círculo há um bilionário que gosta de distribuir milhões por aí. Ele vai escolher uma pessoa para ganhar um milhão. Para isso ele vai eliminar do círculo N - 1 pessoas, seguindo duas regras:
 O bilionário elimina uma pessoa do círculo e sempre pula a seguinte, até sobrar apenas uma pessoa, que é a ganhadora do prêmio.
 O bilionário sempre começa eliminando a pessoa de número 2.
